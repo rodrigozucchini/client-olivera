@@ -1,0 +1,80 @@
+.video-testimonio {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .video-container-2 {
+    height: 529px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    width: 100%;
+  }
+  
+  .video-card {
+    flex: 0 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+
+    justify-content: space-evenly; /* Centramos verticalmente el contenido dentro de las tarjetas */
+
+  }
+  
+  /* Agregamos estilos para centrar el video verticalmente */
+  .video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* Esto mantiene una relación de aspecto de 16:9 para el reproductor de video */
+    position: relative;
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .video-testimonio {
+      width: 100%;
+      height: auto;
+    }
+    
+    .video-container-2 {
+      display: flex;
+      flex-direction: column;
+      margin: 50px;
+      height: 2200px;
+      width: 500px;
+    }
+    
+    /* Agregamos estilos para centrar el video verticalmente */
+    .video-player {
+      display: flex;
+      height: 100px; 
+      width: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .video-testimonio {
+      width: 100%;
+      height: auto;
+    }
+    
+    .video-container-2 {
+      display: flex;
+      flex-direction: column;
+      margin: 30px;
+      height: 2200px;
+      width: 550px;
+    }
+    
+    /* Agregamos estilos para centrar el video verticalmente */
+    .video-player {
+      display: flex;
+      height: 150px; 
+      width: 300px;
+    }
+  }

@@ -1,0 +1,85 @@
+.background-mountain {
+    /* Define la imagen de fondo y ajusta la ruta a tu imagen */
+    background-image: url('./../../../assets/montania.png');
+
+    /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+    background-size: 100% auto;
+    
+    /* Fija la imagen de fondo en la posición superior */
+    background-position: top center;
+    
+    /* Fija la imagen de fondo en altura (largo) */
+    background-attachment: fixed;
+    /* No repite */
+    background-repeat: no-repeat;
+    /* Otras propiedades para el contenedor, como altura mínima */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+.headerc-title {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Open sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.headerc-subtitle {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight:bold;
+    line-height: 1.25em;
+    padding: 0;
+    text-shadow: 0px 0px 2px grey;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Oswald", Sans-serif;
+}
+
+.subtitlec-color {
+    color: #c19656;
+    margin: 0;
+    padding: 0;
+    font-weight:600;
+    text-shadow: 0px 0px 2px #ffffff;
+}
+
+.headerc-subtitle2 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight:bold;
+    line-height: 1.25em;
+    font-family: "Oswald", Sans-serif;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1750px) {
+    .background-mountain {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 100vh;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+  }

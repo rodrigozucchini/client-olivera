@@ -1,0 +1,14 @@
+.titlec-testimonio {
+    text-align: center;
+    text-transform: uppercase; /* Convierte el texto en mayúsculas */
+    background-color: #c19656;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    font-weight:bold;
+    line-height: 1.25em;
+    text-shadow: 0px 0px 2px grey;
+    letter-spacing: 3px;
+    font-family: "Oswald", Sans-serif;
+  }

@@ -1,0 +1,8 @@
+.videoc-player-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 65%;
+    height: 60vh;
+    margin: 0 auto;
+  }

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import VideoPlayer from '../video/VideoPlayer';
-import ButtonAction from '../button/ButtonAction';
 
 const HeaderIncruises = () => {
   return (
@@ -14,7 +13,6 @@ const HeaderIncruises = () => {
             <p>Como viajar a diferentes partes del mundo, <br/>mientras aprendes a <span className="subtitle-color">ganar dinero con internet</span></p>
         </div>
         <VideoPlayer/>
-        <ButtonAction />
       </div>
     </>
   )

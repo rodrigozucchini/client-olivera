@@ -6,13 +6,21 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.a-estilo {
+    text-decoration: none; /* Quita la subrayado del enlace */
+    color: inherit; /* Hereda el color del texto de su contenedor */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Quita el borde */
+    cursor: pointer; /* Cambia el cursor a una mano para indicar clicabilidad */
+    padding: 0; /* Quita el relleno interno */
+    font: inherit; 
+}
 
 .button-call {
     border: none;
     color: #FFFFFF;
     background-color: #fc7609;
     border-radius: 5px;
-    line-height: 120%;
     display: inline-block;
     text-decoration: none;
     text-align: center;
@@ -27,7 +35,153 @@
     align-items: center;
     justify-items: center;
 }
+.button-call-b{
+    border: none;
+    color: #FFFFFF;
+    background-color: #fc7609;
+    border-radius: 5px;
+    line-height: 120%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    align-items: center;
+    justify-items: center;
+}
 
 .button-call:hover {
     background-color: #f88d2a;
 }
+
+@media only screen and (max-width: 1665px) {
+    .card-button {
+        padding-bottom: 50px;
+    }
+  }
+
+  @media only screen and (max-width: 1090px) {
+
+    .button-call {
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 55%;
+        height: auto;
+        text-transform: uppercase;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .button-call-b{
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        line-height: 120%;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .button-call {
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 95%;
+        height: auto;
+        text-transform: uppercase;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .button-call-b{
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        line-height: 120%;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .button-call {
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px;
+        width: 95%;
+        height: auto;
+        text-transform: uppercase;
+        font-size: 30px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .button-call-b{
+        border: none;
+        color: #FFFFFF;
+        background-color: #fc7609;
+        border-radius: 5px;
+        line-height: 120%;
+        display: inline-block;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 25px;
+        cursor: pointer;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #FFFFFF;
+        align-items: center;
+        justify-items: center;
+    }
+  }
