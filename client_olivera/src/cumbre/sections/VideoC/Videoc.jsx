@@ -4,7 +4,7 @@ import './Videoc.css';
 
 const VideoC = () => {
 
-    const videocUrl = "https://www.youtube.com/watch?v=yRSQyVQoWQg";
+    const videocUrl = "https://vimeo.com/868982316?share=copy";
 
   return (
     <div className="videoc-player-container">

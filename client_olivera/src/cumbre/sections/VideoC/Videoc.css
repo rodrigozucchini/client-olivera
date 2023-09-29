@@ -5,4 +5,33 @@
     max-width: 65%;
     height: 60vh;
     margin: 0 auto;
+    margin-bottom: 5px;
+  }
+
+  @media only screen and (max-width: 980px) {
+    .videoc-player-container {
+      max-width: 85%;
+      height: 60vh;
+    }
+  }
+
+  
+  @media only screen and (max-width: 800px) {
+    .videoc-player-container {
+      max-width: 95%;
+      height: 40vh;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .videoc-player-container {
+      max-width: 100%;
+      height: 40vh;
+      margin-bottom: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+
   }

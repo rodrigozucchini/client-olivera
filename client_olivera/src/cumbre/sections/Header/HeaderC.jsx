@@ -2,6 +2,7 @@ import React from 'react'
 import './Headerc.css';
 import VideoC from '../VideoC/Videoc';
 import ButtoncAction from '../buttonc/Buttonc';
+import { Logo } from '../Logo/Logo';
 
 const HeaderC = () => {
   return (

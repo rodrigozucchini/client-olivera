@@ -1,0 +1,20 @@
+.textc-final{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed white;
+    margin: 10px;
+    padding: 20px;
+}
+
+.pc-final{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+@media only screen and (max-width: 375px) {
+    .pc-final{
+        font-size: 18px;
+    }
+  }

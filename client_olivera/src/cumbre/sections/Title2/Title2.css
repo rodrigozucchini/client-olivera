@@ -4,11 +4,31 @@
     background-color: #c19656;
     color: white;
     margin: 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
     padding: 0;
-    font-size: 60px;
+    font-size: 50px;
     font-weight:bold;
     line-height: 1.25em;
     text-shadow: 0px 0px 2px grey;
     letter-spacing: 3px;
     font-family: "Oswald", Sans-serif;
+  }
+
+  @media only screen and (max-width: 980px) {
+    .titlec-testimonio {
+      font-size: 30px;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .titlec-testimonio {
+      font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .titlec-testimonio {
+      font-size: 16px;
+    }
   }

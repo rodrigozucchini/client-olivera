@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
@@ -44,3 +43,84 @@
     justify-items: center;
 }
 
+
+@media only screen and (max-width: 980px) {
+    .cardc-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .buttonc-call {
+        width: 75%;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .buttonc-call {
+        width: 55%;
+    }
+    .buttonc-call-b{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+
+    .cardc-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .buttonc-call {
+        width: 65%;
+    }
+    .buttonc-call-b{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+
+    .cardc-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .buttonc-call {
+        width: 85%;
+    }
+    .buttonc-call-b{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .cardc-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .buttonc-call {
+        width: 95%;
+    }
+    .buttonc-call-b{
+        font-size: 20px;
+    }
+  }

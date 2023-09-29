@@ -1,0 +1,129 @@
+.backc-testimonio-video {
+    display: flex;
+    justify-content:space-evenly; /* Centra horizontalmente las tarjetas */
+    align-items: center; /* Centra verticalmente las tarjetas */
+    background-image: url('./../../../assets/montania3.jpg');
+
+    /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+    background-size: 100% auto;
+    
+    /* Fija la imagen de fondo en la posición superior */
+    background-position: top center;
+    
+    /* Fija la imagen de fondo en altura (largo) */
+    background-attachment: fixed;
+    /* No repite */
+    background-repeat: no-repeat;
+    /* Otras propiedades para el contenedor, como altura mínima */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .videoc-container-back {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+  }
+
+  .videoc-container {
+    width: 95%;
+    height: 60vh;
+    margin: 20px;
+  }
+
+
+  /* Estilos para las tarjetas */
+  .cardc-testimonio-video {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 60vh;
+      margin: 0 auto;
+      padding: 20px;
+  }
+  
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .imagec-testimonio-video {
+    width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  }
+
+.button-logo-back {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+  @media only screen and (max-width: 1750px) {
+    .backc-testimonio-video {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 100vh;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+  }
+
+  @media only screen and (max-width: 1400px) {
+  /* Estilos para las imágenes dentro de las tarjetas */
+    .imagec-testimonio-video {
+      width: 500px; /* Ajusta el tamaño máximo de las imágenes */
+      height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+    .backc-testimonio-video {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-evenly; /* Centra horizontalmente las tarjetas */
+      align-items: center; /* Centra verticalmente las tarjetas */
+    }
+
+    .cardc-testimonio-video {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 60vh;
+      margin: 0 auto;
+      padding: 20px;
+  }
+
+  .videoc-container-back {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+  }
+  }
+
+  @media only screen and (max-width: 980px) {
+
+    .videoc-container-back {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      height: auto;
+    }
+    }

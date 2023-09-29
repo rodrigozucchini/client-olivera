@@ -1,6 +1,6 @@
 .background-mountain {
     /* Define la imagen de fondo y ajusta la ruta a tu imagen */
-    background-image: url('./../../../assets/montania.png');
+    background-image: url('./../../../assets/montania3.jpg');
 
     /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
     background-size: 100% auto;
@@ -15,7 +15,7 @@
     /* Otras propiedades para el contenedor, como altura mínima */
     min-height: 100vh;
     margin: 0;
-    padding: 0;
+    padding: 0 0 50px 0;
   }
 
 .headerc-title {
@@ -83,3 +83,119 @@
         padding-bottom: 10px;
       }
   }
+
+  @media only screen and (max-width: 980px) {
+    .headerc-title {
+        font-size: 30px;
+    }
+    
+    .headerc-subtitle {
+        font-size: 40px;
+    }
+    
+    
+    .headerc-subtitle2 {
+        font-size: 18px;
+
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .headerc-title {
+        font-size: 20px;
+    }
+    
+    .headerc-subtitle {
+        font-size: 30px;
+    }
+    
+    
+    .headerc-subtitle2 {
+        font-size: 18px;
+
+    }
+    .background-mountain {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 80vh;
+        margin: 0;
+        padding-bottom: 0px;
+      }
+  }
+
+  @media only screen and (max-width: 521px) {
+    .headerc-title {
+        font-size: 20px;
+    }
+    
+    .headerc-subtitle {
+        font-size: 30px;
+    }
+    
+    
+    .headerc-subtitle2 {
+        font-size: 18px;
+
+    }
+    .background-mountain {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 85vh;
+        margin: 0;
+        padding-bottom: 0px;
+      }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .headerc-title {
+        font-size: 20px;
+    }
+    
+    .headerc-subtitle {
+        font-size: 30px;
+    }
+    
+    
+    .headerc-subtitle2 {
+        font-size: 18px;
+
+    }
+    .background-mountain {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 100vh;
+        margin: 0;
+        padding-bottom: 0px;
+      }
+  }
+  

@@ -1,0 +1,102 @@
+.backc-testimonio {
+    display: flex;
+    justify-content:space-evenly; /* Centra horizontalmente las tarjetas */
+    align-items: center; /* Centra verticalmente las tarjetas */
+    background-image: url('./../../../assets/rally3.png');
+
+    /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+    background-size: 100% auto;
+    
+    /* Fija la imagen de fondo en la posición superior */
+    background-position: top center;
+    
+    /* Fija la imagen de fondo en altura (largo) */
+    background-attachment: fixed;
+    /* No repite */
+    background-repeat: no-repeat;
+    /* Otras propiedades para el contenedor, como altura mínima */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos para las tarjetas */
+  .cardc-testimonio {
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente los elementos en la tarjeta */
+    margin-top: 100px;
+    margin-left: 0px;
+    border: 3px solid #c19656; /* Borde naranja de 2px */
+    border-radius: 10px; /* Bordes redondeados de 10px */
+    padding: 20px; /* Espaciado interno para el contenido */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .imagec-testimonio {
+    width: 350px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  }
+
+  .pc-testimonio {
+    font-size: 30px;
+    color: white;
+    background-color: #c19656;
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1750px) {
+    .backc-testimonio {
+    
+        /* Establece el tamaño de la imagen de fondo al 100% de la anchura del contenedor */
+        background-size:cover;
+        
+        /* Fija la imagen de fondo en la posición superior */
+        background-position: top center;
+        
+        /* Fija la imagen de fondo en altura (largo) */
+        background-attachment: fixed;
+        /* No repite */
+        background-repeat: no-repeat;
+        /* Otras propiedades para el contenedor, como altura mínima */
+        min-height: 100vh;
+        margin: 0;
+        padding-bottom: 10px;
+      }
+  }
+
+  @media only screen and (max-width: 1400px) {
+  /* Estilos para las imágenes dentro de las tarjetas */
+  .imagec-testimonio {
+    width: 500px; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+  }
+  .backc-testimonio {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly; /* Centra horizontalmente las tarjetas */
+    align-items: center; /* Centra verticalmente las tarjetas */
+  }
+  }
+
+  @media only screen and (max-width: 630px) {
+    .imagec-testimonio {
+      width: 400px; /* Ajusta el tamaño máximo de las imágenes */
+      height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .imagec-testimonio {
+      width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+      height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .imagec-testimonio {
+      width: 200px; /* Ajusta el tamaño máximo de las imágenes */
+      height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    }
+  }
